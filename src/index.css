@@ -1,94 +1,139 @@
-:root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight:400;
-  background-color: #0d0101;
-  color: white; 
+#root{
+    background-color: black;
+    color: white;
+}
+body{
+    margin:0;
+    margin-top: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+    color: white;
+    font-size: 1.2rem;
+}   
+a:hover{
+    color: rgb(20, 16, 16);
+    font-weight: bold;
+    transition: 0.1s;
+    text-decoration: underline;
+
 }
 
-
-
-body {
-  margin:0;
+h1{
+    margin: 0;
+    padding:15px;
 }
-#top-one-one{
-    display: flex;
-    justify-content: start;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 4em;
-    /* text-shadow:4px 2px 4px rgb(4, 3, 3); */
+.home-one-1{
+    background-color:rgb(135, 192, 192);
     color: black;
-    background-color: white;
-    background-image: linear-gradient(90deg ,rgb(79, 224, 224), rgb(186, 233, 233),white,white);
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 15px;
+
+/* font-family: 'Merriweather', 'Georgia', serif;  */
+    
+    box-shadow: 5px 1px 10px black;
+
+}
+#cards{
+    background-color:white;
+    color: black;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 0px;
+    box-shadow: 5px 1px 10px black;
 }
 
-
-@keyframes type{
-    0%{
-        width: 0;
-    }
-    100%{
-        width: 100%;
-    }
-}
-
-
-
-#top-one{
+#cards-2{
+    background-color: rgb(135, 192, 192);
+    color: black;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 0px 0px 7px 7px;
     display: flex;
     justify-content: space-around;
-    margin-top:20%;
-    margin-bottom: 10%;
+    grid-area: cards-2;
+    box-shadow: 5px 1px 10px black;
+    gap: 1%;
+    }
+.home-one-2{
+    background-color: rgb(59, 160, 160);
+    color: rgb(20, 16, 16);
+    display: flex;
+    gap:4.3%;
+    justify-content: end;
+    padding:10px;
+    border-radius: 7px 7px 0px 0px;
+     box-shadow: 5px 1px 10px black;
+    
 }
-
-
-.cards {
-    width: 200px;
-    height: 300px;
-    background-color: black;
-    border-radius: 7px;
-    box-shadow: 0 0 10px 8px #00ffea, 0 0 80px 25px #00f, 0 0 120px 40px #151316;
-}
-
-
-
-.cards {
-    transition: box-shadow 0.4s;
-    transform: rotateZ(25deg);
-    padding-top: 0%;
-    justify-content: center;
-    justify-items: center;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: large;
-    cursor: pointer;
-}
-
-#image-back{
-    background-color:white;
-    height:max-content;
-}
-
-#back-image-one{
-  height: 60vw;
-  background-image: url('assets/image/one/one.jpg');
+.hero{
+     height: 72vh;
+     width: 80vh;
+  background-image: url("./assets/image/two.jpeg");
+  background-size: cover;      
+  border-radius: 10px;
+  background-position: center; 
   background-repeat: no-repeat;
-  background-size: cover;
-  /* background-position: center; */
-  border:0px solid black;
-  
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-/* .cards:hover{
-    transform: rotateZ(0deg);
-} */
 
-/* 
-#cards-text{
-    transform: rotateZ(-25deg);
-} */
+#text{
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 4%;
+    width: 90%;
+}
+#text p,h4{
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    text-align: justify;
+    word-spacing: normal;
+    line-height: 1.4;
+}   
+#text h4{
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: white;
+}
+#text strong{
+    color: rgb(62, 51, 51);
+    font-weight: bold;
+}
+#footer {
+    background-color: #111;
+    color: #eee;
+    text-align: center;
+    padding: 20px 10px;
+    font-family: 'Poppins', sans-serif;
+}
 
+#footer a {
+    color: #00ffff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
 
+#footer a:hover {
+    color: #00bfbf;
+}
 
-.cards:hover {
-    box-shadow: 0 0 60px 20px #00ffe7, 0 0 80px 40px #00f, 0 0 160px 60px #a020f0;
+#footer .contact-info {
+    margin-top: 10px;
+}
+
+#footer .contact-info p {
+    margin: 5px 0;
 }
 

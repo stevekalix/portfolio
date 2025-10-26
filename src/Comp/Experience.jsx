@@ -1,0 +1,7 @@
+export default function Contact(){
+    return(
+        <div>
+            <h1>Experience </h1>
+        </div>
+)
+}

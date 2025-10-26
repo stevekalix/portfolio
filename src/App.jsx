@@ -1,71 +1,27 @@
+import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import Home from "./Home";
+import Contact from "./Comp/Contact";
+import Experience from "./Comp/Experience";
+import Skils from "./Comp/Skils";
+import Extra from "./Comp/Extra";
+import Education from "./Comp/Education";
+
 export default function App() {
-    return (
-        <div>
-
-            <div id="top-one-one">
-                <div>Portfoilo-Site </div>
-            
-            </div>
-
-        
-
-            <div id="image-back">
-                <div id="back-image-one">
-                    l
-
-                </div>
-                
+  return (
+<div>
 
 
-            </div>
-
-
-             <div>
-            </div>
-
-
-
-            <div id="top-one">
-                <div class="top-one-cards">
-                    <div class="cards">
-                        <br />
-                        <br />
-                        <br />
-                        <br />
-                        <h1 id="cards-text">Project</h1>
-                    </div>
-                </div>
-                <div class="top-one-cards">
-                    <div class="cards">
-                        <br />
-                        <br />
-                        <br />
-                        <br />
-                        <h1 id="cards-text">Contact</h1>
-                    </div>
-                </div>
-                <div class="top-one-cards">
-                    <div class="cards">
-                        <br />
-                        <br />
-                        <br />
-                        <br />
-                        <h1 id="cards-text">Skils</h1>
-                    </div>
-                </div>
-                <div class="top-one-cards">
-                    <div class="cards">
-                        <br />
-                        <br />
-                        <br />
-                        <br />
-                        <h1 id="cards-text">Extra</h1>
-                    </div>
-                </div>
-            </div>
-
-
-
-        </div>
-    )
+     <BrowserRouter basename="/portfolio">
+     
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/experience" element={<Experience />} />
+        <Route path="/Skils" element={<Skils/>}/>
+        <Route path="/Extracurricular" element={<Extra/>}/>
+        <Route path="/Education" element={<Education/>}/>
+      </Routes>
+    </BrowserRouter>
+</div>
+  );
 }
