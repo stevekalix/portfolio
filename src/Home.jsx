@@ -13,8 +13,12 @@ export default function Home() {
                     <h1>Portfolio Website</h1>
 
                 </div>
+
+                
                 <div id="cards">
 
+                    <div id="card-back">
+                    
                     <div className="home-one-2">
                         <Link to="/contact">Contact</Link> <br />
                         <Link to="/experience">Experience</Link> <br />
@@ -22,12 +26,9 @@ export default function Home() {
                         <Link to="/Extracurricular">Extracurricular</Link> <br />
                         <Link to="/Education">Education</Link>
                     </div>
-
                     <div id="cards-2">
                         <div className="hero">
-
                         </div>
-
                         <div id="text">
                             <h4>About me</h4>
                             <p>
@@ -37,26 +38,40 @@ export default function Home() {
                                 hands-on experience in areas like <strong>web development, programming languages, and software tools</strong>.
                                 I enjoy exploring innovative solutions, building projects, and staying updated with the latest trends in technology.
                             </p>
-
                         </div>
-
-
-
-
                     </div>
+                    </div>
+
+
 
                     <br />
                 </div>
+
+
+
                <div id="footer">
   <footer>
     <p>© 2024 Manikandan. All rights reserved.</p>
 
-    <div className="contact-info">
-      <p>Email: <a href="mailto:manirevathi404@gmail.com">manirevathi404@gmail.com</a></p>
-      <p>Phone: <a href="tel:+917094472460">+91 7094472460</a></p>
-      <p>GitHub: <a href="https://github.com/stevekalix" target="_blank" rel="noopener noreferrer">stevekalix</a></p>
-      <p>Instagram: <a href="https://www.instagram.com/innocent__child____/" target="_blank" rel="noopener noreferrer">@innocent__child____</a></p>
-    </div>
+   <table class="contact-info">
+  <tr>
+    <td><strong>Email:</strong></td>
+    <td><a href="mailto:manirevathi404@gmail.com">manikandan404@gmail.com</a></td>
+  </tr>
+  <tr>
+    <td><strong>Phone:</strong></td>
+    <td><a href="tel:+917094472460">8978564266</a></td>
+  </tr>
+  <tr>
+    <td><strong>GitHub:</strong></td>
+    <td><a href="https://github.com/stevekalix" target="_blank" rel="noopener noreferrer">stevekalix</a></td>
+  </tr>
+  <tr>
+    <td><strong>Instagram:</strong></td>
+    <td><a href="https://www.instagram.com/innocent__child____/" target="_blank" rel="noopener noreferrer">Manikandan</a></td>
+  </tr>
+</table>
+
   </footer>
 </div>
 

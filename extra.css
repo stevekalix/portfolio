@@ -1,0 +1,77 @@
+/* ===== Extracurricular Section ===== */
+.extra-page {
+  padding: 0px 0px;
+ 
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+}
+
+
+.container {
+  max-width: 900px;
+  margin: 0 ;
+  items-align: center;
+  background-color: #f9fafb;
+  justify-content: center;
+
+ 
+  border-radius: 10px;
+  padding: 40px 30px;
+}
+
+.section-title {
+  text-align: center;
+  color: #007bff;
+  font-size: 2em;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.extra-page hr {
+ 
+  height: 3px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 2px;
+}
+
+/* ===== List Style ===== */
+.extra-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-left: 20%;
+}
+
+.extra-list li {
+  background: #fdfdfd;
+  border-left: 6px solid #007bff;
+  margin-bottom: 15px;
+  padding: 18px 20px;
+  border-radius: 8px;
+  font-size: 1.05rem;
+  line-height: 1.6;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  transition: all 0.25s ease;
+}
+
+.extra-list li:hover {
+  transform: translateY(-3px);
+  background-color: #f0f7ff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
+}
+
+/* ===== Responsive Design ===== */
+@media (max-width: 768px) {
+  .container {
+    padding: 25px 15px;
+  }
+
+  .section-title {
+    font-size: 1.6em;
+  }
+
+  .extra-list li {
+    font-size: 1rem;
+  }
+}
