@@ -95,7 +95,7 @@
 
 .project-card a {
   text-decoration: none;
-  color: #007bff;
+  color: #6e8baa;
   font-weight: bold;
 }
 
@@ -107,13 +107,12 @@
   padding: 0px;
     background-color: #f9fafb;
   color: #333;
-  text-align: center;
+  text-align: start;
 }
 
 .section-title {
-  color: black;
-  margin-bottom: 20px;
-  font-size: 2em;
+  margin-bottom: 0px;
+  font-size: 0em;
 }
 
 h4 {
@@ -124,8 +123,8 @@ h4 {
 .skills-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  gap: 15px;
+  justify-content:start;
+  gap: 25px;
   margin-top: 10px;
 }
 

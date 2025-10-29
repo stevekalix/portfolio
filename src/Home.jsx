@@ -14,70 +14,68 @@ export default function Home() {
 
                 </div>
 
-                
+
                 <div id="cards">
 
                     <div id="card-back">
-                    
-                    <div className="home-one-2">
-                        <Link to="/contact">Contact</Link> <br />
-                        <Link to="/experience">Experience</Link> <br />
-                        <Link to="/Skils">Skills</Link> <br />
-                        <Link to="/Extracurricular">Extracurricular</Link> <br />
-                        <Link to="/Education">Education</Link>
-                    </div>
-                    <div id="cards-2">
-                        <div className="hero">
+
+                        <div className="home-one-2">
+                            <Link to="/contact">Contact</Link> <br />
+                            <Link to="/experience">Experience /Projects</Link> <br />
+                            <Link to="/Skils">Skills</Link> <br />
+                            <Link to="/Extracurricular">Extracurricular</Link> <br />
+                            <Link to="/Education">Education</Link>
                         </div>
-                        <div id="text">
-                            <h4>About me</h4>
-                            <p>
-                                Hello! I'm <strong>Manikandan</strong>, a third-year <strong>Computer Science Engineering</strong> student
-                                with a strong passion for IT and technology. I am eager to pursue a career in the IT industry and
-                                am continuously learning new technologies to improve my skills. So far, I have studied and gained
-                                hands-on experience in areas like <strong>web development, programming languages, and software tools</strong>.
-                                I enjoy exploring innovative solutions, building projects, and staying updated with the latest trends in technology.
-                            </p>
+                        <div id="cards-2">
+                            <div className="hero">
+                            </div>
+
+                            <div id="text">
+                                <h4>About me</h4>
+                                <p>
+                                    Hello! I'm <strong>Manikandan</strong>, a third-year <strong>Computer Science Engineering</strong> student
+                                    with a strong passion for IT and technology. I am eager to pursue a career in the IT industry and
+                                    am continuously learning new technologies to improve my skills. So far, I have studied and gained
+                                    hands-on experience in areas like <strong>web development, programming languages, and software tools</strong>.
+                                    I enjoy exploring innovative solutions, building projects, and staying updated with the latest trends in technology.
+                                </p>
+                            </div>
+
+                            <br />
                         </div>
                     </div>
-                    </div>
-
-
-
+                    <br />
                     <br />
                 </div>
+                <div id="footer">
+                    <footer>
+                        <p>© 2024 Manikandan. All rights reserved.</p>
 
+                        <table class="contact-info">
+                            <tr>
+                                <td><strong>Email:</strong></td>
+                                <td><a href="mailto:manirevathi404@gmail.com">manikandan404@gmail.com</a></td>
+                            </tr>
+                            <tr>
+                                <td><strong>Phone:</strong></td>
+                                <td><a href="tel:+917094472460">8978564266</a></td>
+                            </tr>
+                            <tr>
+                                <td><strong>GitHub:</strong></td>
+                                <td><a href="https://github.com/stevekalix" target="_blank" rel="noopener noreferrer">stevekalix</a></td>
+                            </tr>
+                            <tr>
+                                <td><strong>Instagram:</strong></td>
+                                <td><a href="https://www.instagram.com/innocent__child____/" target="_blank" rel="noopener noreferrer">Manikandan</a></td>
+                            </tr>
+                        </table>
 
-
-               <div id="footer">
-  <footer>
-    <p>© 2024 Manikandan. All rights reserved.</p>
-
-   <table class="contact-info">
-  <tr>
-    <td><strong>Email:</strong></td>
-    <td><a href="mailto:manirevathi404@gmail.com">manikandan404@gmail.com</a></td>
-  </tr>
-  <tr>
-    <td><strong>Phone:</strong></td>
-    <td><a href="tel:+917094472460">8978564266</a></td>
-  </tr>
-  <tr>
-    <td><strong>GitHub:</strong></td>
-    <td><a href="https://github.com/stevekalix" target="_blank" rel="noopener noreferrer">stevekalix</a></td>
-  </tr>
-  <tr>
-    <td><strong>Instagram:</strong></td>
-    <td><a href="https://www.instagram.com/innocent__child____/" target="_blank" rel="noopener noreferrer">Manikandan</a></td>
-  </tr>
-</table>
-
-  </footer>
-</div>
+                    </footer>
+                </div>
 
             </div>
 
-            
+
 
         </div>
     )

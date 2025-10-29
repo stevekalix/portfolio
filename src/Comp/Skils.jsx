@@ -10,7 +10,6 @@ export default function Skils() {
         <hr />
         
 
-        {/* Programming Languages */}
         <h4>Programming Languages</h4>
         <div className="skills-container">
           <div className="skill-card">Java</div>
@@ -20,7 +19,6 @@ export default function Skils() {
           <div className="skill-card">JavaScript</div>
         </div>
 
-        {/* Frameworks & Technologies */}
         <h4>Frameworks & Technologies</h4>
         <div className="skills-container">
           <div className="skill-card">Spring Boot</div>
@@ -29,7 +27,6 @@ export default function Skils() {
           <div className="skill-card">MySQL</div>
         </div>
 
-        {/* Tools */}
         <h4>Tools</h4>
         <div className="skills-container">
           <div className="skill-card">Eclipse IDE</div>
@@ -38,7 +35,6 @@ export default function Skils() {
           <div className="skill-card">GitHub (50% proficient)</div>
         </div>
 
-        {/* Languages */}
         <h4>Communication Languages</h4>
         <div className="skills-container">
           <div className="skill-card">Tamil (Mother Tongue)</div>
